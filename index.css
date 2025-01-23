@@ -1,0 +1,30 @@
+/*Types of selectors in CSS------------------------------------------------*/
+/*1. Universal Selector */
+*{
+    background-color: aqua;
+}
+/*2. Element selector  */
+h3{
+    color: blue;
+}
+/*3. Class selector V.V.IMP----------*/
+.heading4{
+    color: chartreuse;
+}
+/*4. ID selector*/
+#heading5{
+    color: yellow;
+}
+/*5. Group selector */
+p,a{
+    color: red;
+}
+/*6. Attribute selector*/
+input[type="text"]{
+    border: 1px solid yellow;
+    padding: 10px; 
+}
+/*7. pseduo class selector*/
+a:hover{
+    color: orange;
+}
